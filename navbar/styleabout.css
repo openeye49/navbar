@@ -1,0 +1,64 @@
+{
+          margin: 0;
+          padding: 0;
+          box-sizing: : border-box;
+     }
+
+     body {
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: aqua;
+     }
+
+     .about {
+          background: url(alfiano-sutianto-exfdowkybqw-unsplash-scaled.jpeg) no-repeat;
+          background-size: 55%;
+          background-color: aliceblue;
+          overflow: hidden;
+          padding: 100px 0px;
+
+     }
+
+     .inner-section {
+          width: 55%;
+          float: right;
+          background-color: blueviolet;
+          padding: 140px;
+          box-shadow: 12px 12px 8px rgb(0, 0, 0, 3);
+
+     }
+
+     .inner-section h1 {
+          margin-bottom: 30px;
+          font-size: 30px;
+          font-weight: 900;
+
+
+     }
+
+     .text {
+          font-size: 13px;
+          color: aquamarine;
+          line-height: 30px;
+          text-align: justify;
+          margin-bottom: 40px;
+     }
+
+     @media screen and (max-width:120px) {
+          .inner-section {
+               padding: 80px;
+          }
+     }
+
+     @media screen and (max-width:1000px) {
+          .about {
+               background-size: 100%;
+               padding: 100px 40px;
+          }
+     }
+.inner-section{
+     width: 100%;
+
+}
